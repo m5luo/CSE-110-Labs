@@ -1,0 +1,81 @@
+.ucsdlogo {
+    max-width: 400px
+}
+
+.navbar {
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    color: white;
+    background-color: #182B49;
+}
+
+.S1 {
+    display: inline-block;
+    padding: 14px 16px;
+    background-color: rgb(245, 240, 230);
+    scroll-margin-top: 50px;
+}
+.S2 {   
+    display: inline-block;
+    width: 100%;
+    color: white;
+    padding: 14px 16px;
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    scroll-margin-top: 50px;  
+}
+
+p {
+    font-size: 28px;
+    padding: 14px 16px;
+}
+
+.S3 {
+    /* display: grid; */
+    display: inline-grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding: 14px 16px;
+    background-color: rgb(245, 240, 230);
+    scroll-margin-top: 50px;
+}
+
+.item1 {
+    grid-column-start: 1;
+    color: white;
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+}
+.item2 {
+    color: white;
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+}
+.item3 {
+    color: white;
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+}
+.item4 {
+    color: white;
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+}
