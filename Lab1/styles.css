@@ -76,18 +76,26 @@ p {
 .item1 {
     grid-column-start: 1;
     color: white;
+    max-height: 500px;
+    overflow: scroll;
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
 }
 .item2 {
     color: white;
+    max-height: 500px;
+    overflow: scroll;
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
 }
 .item3 {
     color: white;
+    max-height: 500px;
+    overflow: scroll;
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
 }
 .item4 {
     color: white;
+    max-height: 500px;
+    overflow: scroll;
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
 }
 
